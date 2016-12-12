@@ -1,2 +1,57 @@
 /* CSS Document */
 
+.noctilogo
+{
+	background-color:#dbc8b5;
+	width:18%;
+	height:auto;
+	min-width:140px;
+}
+
+.logobar
+{
+	background-color:#dbc8b5;
+}
+
+.navigation
+{
+	background-color:#dbc8b5;
+	font-size:22px;
+	text-align:center;
+	display:block;
+	font-family:impact;
+}
+
+ul 
+{
+	list-style-type:none;
+}
+
+.navlist 
+{
+	display:inline;
+	padding:8%
+}
+
+li a
+{
+
+}
+
+.cartainer
+{
+	width:90%;
+
+}
+
+#myCarousel
+{
+	float:none;
+	background-color:#323232;
+	display:table-cell;
+}
+
+body
+{
+	background-color:#323232;
+}
