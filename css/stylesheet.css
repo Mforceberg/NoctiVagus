@@ -30,7 +30,7 @@ ul
 .navlist 
 {
 	display:inline;
-	padding:8%
+	padding:10%
 }
 
 li a
@@ -47,8 +47,25 @@ li a
 #myCarousel
 {
 	float:none;
-	background-color:#323232;
 	display:table-cell;
+}
+
+h4
+{
+	font-style:italic;
+}
+
+
+.socialmedia
+{
+	width:8%;
+	height:auto;
+}
+
+.footainer
+{
+	background-color:#dbc8b5;
+	width:100%;
 }
 
 body
