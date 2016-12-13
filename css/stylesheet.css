@@ -22,11 +22,28 @@
 .navigation
 {
 	background-color:#dbc8b5;
-	font-size:180%;
+	font-size:2.1vw;
 	text-align:center;
 	display:block;
 	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
 }
+
+@media all and (max-device-width:767px)
+{
+	
+.navigation
+{
+	background-color:#dbc8b5;
+	font-size:12px;
+	text-align:center;
+	display:block;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+}
+
+}
+
 
 ul 
 {
@@ -36,12 +53,13 @@ ul
 .navlist 
 {
 	display:inline;
-	padding:10%
+	padding:5%
 }
 
 li a
 {
-
+	text-decoration:none;
+	color:black;
 }
 
 .contentainer
@@ -96,6 +114,13 @@ h3
 	font-family:italiano;
 }
 
+.foottext
+{
+	color:black;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
 
 .socialmedia
 {
