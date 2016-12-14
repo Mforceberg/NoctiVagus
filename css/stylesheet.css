@@ -9,7 +9,7 @@
 	max-width:330px;
 	height:auto;
 	min-width:140px;
-	padding-bottom:1%;
+	padding-bottom:2%;
 }
 
 .logobar
@@ -22,53 +22,49 @@
 .navigation
 {
 	background-color:#dbc8b5;
-	font-size:2.1vw;
+	font-size:1.9vw;
 	text-align:center;
 	display:block;
 	font-family: 'Raleway', sans-serif;
 	font-weight:bold;
-}
-
-@media all and (max-device-width:767px)
-{
-	
-.navigation
-{
-	background-color:#dbc8b5;
-	font-size:12px;
-	text-align:center;
-	display:block;
-	font-family: 'Raleway', sans-serif;
-	font-weight:bold;
-}
-
 }
 
 
 ul 
 {
 	list-style-type:none;
+
 }
 
 .navlist 
 {
 	display:inline;
-	padding:5%
+	padding:5%;
 }
+
 
 li a
 {
-	text-decoration:none;
 	color:black;
+	text-decoration:none;
 }
+
+
+li a:hover
+{
+	color:black;
+	text-decortaion:none;
+}
+
+
+
+/* indhold til siderne */
 
 .contentainer
 {
 	width:90%;
 }
 
-
-/* indhold til siderne */
 
 #wineimage
 {
@@ -82,21 +78,30 @@ h1
 	font-style:italic;
 	font-weight:bold;
 	font-family:italiano;
+	font-size:38px;
 }
 
 p
 {
 	color:white;
 	font-family: 'Raleway', sans-serif;
-	font-size:16px;
+	font-size:20px;
 }
 
-.frontpageimages
+.contentimages
 {
 	width:100%;
 	padding-top:1%;
 	padding-bottom:1%;
 }
+
+/* indhold til menu */
+
+.menutitle
+{
+	font-size:60px;
+}
+
 
 /* Billede Karrusel */
 #myCarousel
