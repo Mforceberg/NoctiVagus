@@ -22,13 +22,27 @@
 .navigation
 {
 	background-color:#dbc8b5;
-	font-size:1.9vw;
 	text-align:center;
 	display:block;
 	font-family: 'Raleway', sans-serif;
 	font-weight:bold;
 }
 
+@media all and (max-width:767px)
+{
+	.navigation
+	{
+		font-size:2.5vw;
+	}
+}
+
+@media all and (min-width:768px)
+{
+	.navigation
+	{
+		font-size:1.9vw;
+	}
+}
 
 ul 
 {
@@ -97,10 +111,100 @@ p
 
 /* indhold til menu */
 
-.menutitle
+
+/* mindre end 767 px */
+@media all and (max-width: 767px)
 {
-	font-size:60px;
+	.sitetitle
+	{
+		font-size:6vw;
+		text-align:center;
+	}
+	
+	.h2content
+	{
+		font-size:5vw;
+	}
 }
+
+/* Større end 768px */
+@media all and (min-width:768px)
+{
+	.sitetitle
+	{
+		font-size:60px;
+		font-size:5vw;
+		text-align:center;
+	}
+	
+	.menuimages
+	{
+		margin-top:1.5%;
+	}
+	
+	.h2content
+	{
+		font-size:4vw;
+	}
+	
+}
+
+
+
+.h3content
+{
+	font-style:italic;
+	font-family:italiano;
+	font-weight:bold;
+	color:white;
+}
+
+
+.h2content
+{
+	font-style:italic;
+	font-weight:bold;
+	font-family:italiano;
+	color:white;
+}
+
+
+
+h4
+{
+	font-weight:bold;
+	font-size:102%;
+}
+
+.menuitems
+{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+}
+
+@media all and (max-width:1199px)
+{
+	.pris
+	{
+		width:25%;
+		hight:auto;
+		margin-left:35%;
+		padding-bottom:2%;
+	}
+}
+
+@media all and (min-width:1200px)
+{
+	.pris
+	{
+		width:15%;
+		hight:auto;
+		margin-left:35%;
+	}
+
+}
+
 
 
 /* Billede Karrusel */
@@ -112,7 +216,7 @@ p
 
 
 /* Footer */
-h3
+.hfooter
 {
 	font-style:italic;
 	font-weight:bold;
