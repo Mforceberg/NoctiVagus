@@ -32,15 +32,23 @@
 {
 	.navigation
 	{
-		font-size:2.5vw;
+		font-size:4vw;
 	}
 }
 
-@media all and (min-width:768px)
+@media all and (max-width:1199px)
 {
 	.navigation
 	{
-		font-size:1.9vw;
+		font-size:2.75vw;
+	}
+}
+
+@media all and (min-width:1200px)
+{
+	.navigation
+	{
+		font-size:1.5vw;
 	}
 }
 
@@ -125,6 +133,7 @@ p
 	{
 		font-size:5vw;
 	}
+	
 }
 
 /* Større end 768px */
@@ -192,6 +201,11 @@ h4
 		margin-left:35%;
 		padding-bottom:2%;
 	}
+	
+	.aboutimage
+	{
+		display:none;
+	}
 }
 
 @media all and (min-width:1200px)
@@ -205,7 +219,39 @@ h4
 
 }
 
+/* About us opdelt del */
 
+.abouttainer
+{
+	background-color:#dbc8b5;
+}
+
+.aboutsubtitle
+{
+	text-align:center;
+	font-family:italiano;
+	font-style:italic;
+}
+
+.abouttext
+{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+
+.aboutimage
+{
+	padding-top:1%;
+}
+
+
+/* Booking Form*/
+.control-label
+{
+	color:white;
+}
 
 /* Billede Karrusel */
 #myCarousel
@@ -214,8 +260,14 @@ h4
 	display:table-cell;
 }
 
+#singlebutton
+{
+	Command: toastr["success"]("Thank you for your reservation", "Complete!")
+}
 
 /* Footer */
+
+
 .hfooter
 {
 	font-style:italic;
@@ -243,7 +295,7 @@ h4
 	width:100%;
 	font-family: 'Raleway', sans-serif;
 	font-size:16px;
-	margin-top:2%;
+	margin-top:20%;
 }
 
 body
