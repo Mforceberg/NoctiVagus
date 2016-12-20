@@ -4,13 +4,14 @@
 .noctilogo
 {
 	background-color:#dbc8b5;
-	align-content:center;
-	width:35%;
-	max-width:330px;
+	width:30%;
+	max-width:200px;
 	height:auto;
 	min-width:140px;
 	padding-bottom:2%;
+	padding-top:1%;
 }
+
 
 .logobar
 {
@@ -28,6 +29,7 @@
 	font-weight:bold;
 }
 
+/* Screens smaller than 767px */
 @media all and (max-width:767px)
 {
 	.navigation
@@ -36,6 +38,7 @@
 	}
 }
 
+/* Screens smaller than 1199px */
 @media all and (max-width:1199px)
 {
 	.navigation
@@ -44,6 +47,7 @@
 	}
 }
 
+/* Screens bigger than 1200px */
 @media all and (min-width:1200px)
 {
 	.navigation
@@ -80,7 +84,7 @@ li a:hover
 
 
 
-/* indhold til siderne */
+/* Content of the sites */
 
 .contentainer
 {
@@ -117,10 +121,7 @@ p
 	padding-bottom:1%;
 }
 
-/* indhold til menu */
-
-
-/* mindre end 767 px */
+/* screens smaller than 767px */
 @media all and (max-width: 767px)
 {
 	.sitetitle
@@ -136,7 +137,7 @@ p
 	
 }
 
-/* Større end 768px */
+/* Screens bigger than 768 px */
 @media all and (min-width:768px)
 {
 	.sitetitle
@@ -185,6 +186,7 @@ h4
 	font-size:102%;
 }
 
+/* Text for the menu */
 .menuitems
 {
 	color:white;
@@ -192,6 +194,8 @@ h4
 	font-size:20px;
 }
 
+
+/* For screens smaller than 1199 px  */
 @media all and (max-width:1199px)
 {
 	.pris
@@ -202,12 +206,15 @@ h4
 		padding-bottom:2%;
 	}
 	
+	/* image only shown on bigger devices */
 	.aboutimage
 	{
 		display:none;
 	}
 }
 
+
+/* For screens bigger than 1200 px  */
 @media all and (min-width:1200px)
 {
 	.pris
@@ -216,14 +223,23 @@ h4
 		hight:auto;
 		margin-left:35%;
 	}
+	
+	
+	/* image only shown on smaller devices */
+	#aboutphoneimage
+	{
+		display:none;
+	}
 
 }
 
 /* About us opdelt del */
 
-.abouttainer
+
+.aboutbrowntext
 {
 	background-color:#dbc8b5;
+	padding-bottom:5%;
 }
 
 .aboutsubtitle
@@ -235,17 +251,19 @@ h4
 
 .abouttext
 {
+
 	color:white;
 	font-family: 'Raleway', sans-serif;
 	font-size:20px;
 	text-align:center;
 }
 
-.aboutimage
+
+#aboutphoneimage
 {
 	padding-top:1%;
+	padding-bottom:1%;
 }
-
 
 /* Booking Form*/
 .control-label
@@ -260,13 +278,8 @@ h4
 	display:table-cell;
 }
 
-#singlebutton
-{
-	Command: toastr["success"]("Thank you for your reservation", "Complete!")
-}
 
 /* Footer */
-
 
 .hfooter
 {
@@ -275,6 +288,8 @@ h4
 	font-family:italiano;
 }
 
+
+/* footer text */
 .foottext
 {
 	color:black;
@@ -283,6 +298,8 @@ h4
 	font-weight:bold;
 }
 
+
+/* Social media logos */
 .socialmedia
 {
 	width:8%;
@@ -295,9 +312,11 @@ h4
 	width:100%;
 	font-family: 'Raleway', sans-serif;
 	font-size:16px;
-	margin-top:20%;
+	margin-top:2%;
 }
 
+
+/* Body tag used for background color */
 body
 {
 	background-color:#323232;

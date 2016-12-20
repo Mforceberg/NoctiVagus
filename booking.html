@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,14 +17,15 @@
 <!-- Logo -->
 <div class="wrapper container-fluid">
 <div class="row logobar">
-	<a href="index.html"><img src="images/placeholderlogo.png" alt="Nocti Vagus Logo" 
+	<a href="index.html"><img src="images/noctilogo.png" alt="Nocti Vagus Logo" 
     class="col-xs-12 col-sm-12 col-md-12 col-xs-offset-4 col-sm-offset-3  col-md-offset-2 noctilogo"></a>
 </div>
 
 
-<!-- Navigations bar -->
+<!-- Navigation bar -->
 <div class="row">
 <ul class="col-xs-12 col-sm-12 col-md-12 navigation">
+	<li class="navlist"><a href="index.html">Home</a></li>
 	<li class="navlist"><a href="menu.html">Menu</a></li>
     <li class="navlist"><a href="events.html">Events</a></li>
     <li class="navlist"><a href="booking.html">Booking</a></li>
@@ -43,7 +44,9 @@
     your nocti vagus experience will last for around 3 hours. The cause of this is the darkness, only around 15 guests can enter the darkroom, this is to keep you in complete darkness through out your dinner.
     </p><br>
 
-<form action="mailto:messias.forsberg@gmail.com" method="post" enctype="text/plain">
+
+<!-- Booking form -->
+<form method="post" enctype="text/plain">
 <!-- Text input-->
 <div class="row">
 <div class="form-group">
@@ -57,7 +60,7 @@
 
 <br>
 
-<!-- Select Basic -->
+<!-- Selecting Number of people -->
 <div class="row">
 <div class="form-group">
   <label class="col-md-12 col-sm-offset-3 control-label" for="selectbasic">Number of people</label>
@@ -76,7 +79,7 @@
 
 <br>
 
-<!-- -->
+<!-- Selecting Date -->
 <div class="row">
 <div class="form-group">
   <label class="col-md-12 col-sm-offset-3 control-label" for="dateput">Date</label>  
@@ -87,13 +90,36 @@
 </div>
 </div>
 
+<br>
+
+<!-- Selecting Check-in Time -->
+<div class="row">
+<div class="form-group">
+  <label class="col-md-12 col-sm-offset-3 control-label" for="selecttime">Check-in Time</label>
+  <div class="col-md-4 col-sm-6 col-sm-offset-3">
+    <select id="selecttime" name="selecttime" class="form-control">
+      <option value="18:00">18:00</option>
+      <option value="18:15">18:15</option>
+      <option value="18:30">18:30</option>
+      <option value="18:45">18:45</option>
+      <option value="19:00">19:00</option>
+      <option value="19:15">19:15</option>
+      <option value="19:30">19:30</option>
+      <option value="19:45">19:45</option>
+      <option value="20:00">20:00</option>
+    </select>
+  </div>
+</div>
+</div>
+
+
 
 <br>
-<!-- Button -->
+<!-- Button to submit reservation -->
 <div class="row">
 <div class="form-group">
   <div class="col-md-4 col-sm-6 col-sm-offset-3">
-    <button id="singlebutton" name="singlebutton" class="btn btn-success">Book Now</button>
+    <button id="singlebutton" type="submit"  name="singlebutton" class="btn btn-success" onClick="alert('Thank you for your reservation'); return true">Book Now</button>
   </div>
 </div>
 </div>
