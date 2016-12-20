@@ -4,7 +4,7 @@
 .noctilogo
 {
 	background-color:#dbc8b5;
-	width:30%;
+	width:20%;
 	max-width:200px;
 	height:auto;
 	min-width:140px;
@@ -271,6 +271,12 @@ h4
 	color:white;
 }
 
+.form-group
+{
+	width:80%;
+	align-content:center;
+}
+
 /* Billede Karrusel */
 #myCarousel
 {
@@ -279,8 +285,8 @@ h4
 }
 
 
-/* Footer */
 
+/* Footer */
 .hfooter
 {
 	font-style:italic;
